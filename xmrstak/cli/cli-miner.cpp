@@ -198,7 +198,7 @@ inline void prompt_once(bool& prompted)
 inline bool use_simple_start()
 {
 	// ask this question only once
-	static bool simple_start = read_yes_no("\nUse simple setup method? (Y/n)", "Y");
+	static bool simple_start = read_yes_no("\nUse simple setup method? (Y/n)", "Y\n");
 	return simple_start;
 }
 
